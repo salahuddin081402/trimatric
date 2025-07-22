@@ -1,0 +1,53 @@
+/* /css/menu_ho.css */
+
+/* menu_ho.css */
+
+/* Navbar for HO Admin menu only */
+.menu-ho-navbar {
+  box-shadow: 0 4px 18px rgba(30,60,110,.08);
+  background: linear-gradient(90deg, #123c63 80%, #0d6efd 100%) !important;
+}
+
+/* Icon alignment in dropdowns */
+.menu-ho-navbar .dropdown-menu .fa {
+  width: 22px;
+  text-align: center;
+  margin-right: 7px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 991.98px) {
+  .menu-ho-navbar .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Dropdown hover effect */
+.menu-ho-navbar .dropdown-menu .dropdown-item:hover,
+.menu-ho-navbar .dropdown-menu .dropdown-item:focus {
+  background-color: #f1f6fa;
+  color: #08467b;
+}
+
+/* Profile icon sizing */
+.menu-ho-navbar .fa-user-circle {
+  font-size: 1.3em;
+  margin-right: 6px;
+}
+
+/* Allow menu items to wrap to next line if overflow */
+.navbar-nav {
+    flex-wrap: wrap !important;
+}
+
+/* Make sure the navbar stays full width */
+.navbar {
+    width: 100%;
+}
+
+/* Optional: avoid vertical gap between lines */
+.navbar-nav .nav-item {
+    margin-bottom: 2px;
+}
+
